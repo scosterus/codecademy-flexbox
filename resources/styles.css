@@ -21,9 +21,24 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 25px;
+}
+
 p {
     font-size: 16px;
     font-weight: 400;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bw {
+    filter: grayscale(1);
 }
 
 /* header */
@@ -76,3 +91,24 @@ nav li:hover {
     font-size: 20px;
     text-align: center;
 }
+
+/* process */
+
+.process {
+    max-width: 1200px;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.process h2 {
+    font-size: 50px;
+    padding-bottom: 20px;
+
+}
+
+.images img{
+    max-width: 49%;
+    padding-bottom: 20px;
+}
+
