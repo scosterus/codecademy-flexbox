@@ -34,7 +34,6 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .bw {
@@ -63,7 +62,7 @@ nav li {
 }
 
 nav li:hover {
-    color: darkmagenta;
+    color: rgb(238, 72, 0);
     cursor: not-allowed;
 }
 
@@ -102,9 +101,12 @@ nav li:hover {
 }
 
 .process h2 {
-    font-size: 50px;
+    font-size: 40px;
     padding-bottom: 20px;
+}
 
+.images {
+    justify-content: space-between;
 }
 
 .images img{
@@ -112,3 +114,53 @@ nav li:hover {
     padding-bottom: 20px;
 }
 
+.pills {
+    justify-content: space-between;
+}
+
+.pills img {
+    max-width: 32%;
+}
+
+.contact {
+
+    max-width: 1200px;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.contact h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.contact li {
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.contact-info {
+    display: flex;
+    background-color: rgb(16, 16, 16);
+}
+
+.contact-info-img {
+    width: 60%;
+}
+
+.contact-info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.contact-info-text h2 {
+    color: white;
+}
+
+.contact-info-text li {
+    list-style-type: none;
+}
